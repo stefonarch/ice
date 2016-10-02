@@ -92,6 +92,14 @@ QMenu::separator {
    background: #3b5d7b;
    margin:0;
 }
+QMenu QToolButton {
+   background-color: #6797a5;
+   padding: 5px;
+   border: transparent;
+   border-bottom:1px solid white;
+   font: bold;
+   color:#fcf7f7;
+}
 /*
 /* Mainmenu
 */
@@ -173,6 +181,7 @@ QMenu::separator {
    stop: 0.35 #7bb4c7, stop: 0.4 #73a8b9,
    stop: 0.95 #4a769c, stop: 1 #294258);
    color:#fcf7f7;
+   font:bold;
 }
 #TaskBar QToolButton[urgent="true"] {
    color:#ad1305;
