@@ -2,7 +2,7 @@
  * Popup
  */
 Notification {
-   background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+   background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1,
    stop: 0 #d0e6ec, stop: 1 #75979e);
    border-radius:4px;
    padding: 1px;
@@ -10,11 +10,11 @@ Notification {
 }
 /*message*/
 QLabel {
-   color:#323d42;
+   color:#2e3b3d;
 }
 /*title*/
 #appLabel {
-   color:#54646d;
+   color: black;
 }
 QToolButton {
    border:1px solid #4a5961;

@@ -361,7 +361,7 @@ QCalendarWidget QSpinBox {
 
 
 #DesktopSwitch QToolButton:hover{
-   border-bottom:2px solid #2a606f;
+   border-bottom:1px solid #2a606f;
    border-radius: 2px;
    color:#1b2b39;
    background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 1,
